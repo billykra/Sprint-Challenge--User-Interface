@@ -101,17 +101,6 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +132,227 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* My code for index pg*/
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border: auto;
+    padding: auto;
+}
+
+
+.navigation{
+    text decoration: none;
+    margin-top: 8px;
+}
+
+.navigation a{
+    display: flex;
+    color: black;
+    margin-left: 100px;
+    margin-right: 18px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    
+}
+
+.top-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100%
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    border: auto;
+    padding: auto;
+    margin: auto;
+    width: 85%
+}
+
+.middle-image{
+    margin-bottom: 30px;
+}
+
+.middle-content .boxes .box1 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: teal;
+}
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: coral;
+}
+
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: forestgreen;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkorchid;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hotpink;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: indigo;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dodgerblue;
+}
+
+/* My code for about pg*/
+
+.body-container {
+    margin-left:0;
+    display: flex;
+    margin-top:15px;
+    margin-bottom:30px;
+    width: auto;
+  }
+
+  .aboutSection{
+    border-bottom: 1px dashed black;
+    padding-bottom:15px;
+    width: auto;
+    margin-right: auto;
+    display:flex;
+    
+  }
+
+  .Strategy, .How, .Places, .Collab {
+    margin-bottom: 15px;
+    width:500px;
+    margin-right:30px;
+    border-bottom: 1px dashed black;
+  }
+
+  .Strategy, .How, .Places, .Collab h2{
+    margin-top 18px;
+  }
+
+  .Work {
+    width: auto;
+    margin-bottom:30px;
+  }
+  .Work p {
+    width: auto;
+    margin-bottom:30px;
+  }
+
+  button {
+    display: inline-block;
+    width: 130px;
+    height: 33px;
+    margin-top: 20px;
+    margin-bottom:15px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 12.5px;
+    text-align: center;
+    color: black;
+    
+}
+
+h2, p, button{
+    margin-left: 40px;
 }
